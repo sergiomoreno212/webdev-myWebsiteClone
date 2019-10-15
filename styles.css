@@ -1,1 +1,79 @@
-/* CSS CODE HERE */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    display: inline-block;
+    width: 100vw;
+    
+  }
+  
+  #navbar li {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+    text-decoration: none;
+    text-align: justify;
+    font-family: sans-serif;
+  }
+
+  #img {
+    position:absolute;
+    left:10px;
+    top:10px;
+    margin: 0px 15px 15px 0px;
+}
+
+  #sign-in {
+    position: relative;
+    float: right;
+    margin-right: 40px;
+    margin-top: 5px;
+    padding: 10px;
+    background-color: white;
+    color: #3b3bff;
+    border: 2px solid #3b3bff;
+    border-radius: 40px;
+    color: #3b3bff;
+  }
+
+  #sign-in:hover {
+    background-color: #3b3bff;
+    transition: 0.5s;
+    color: white;
+  }
+
+
+  
+  #big-text {
+    text-align: center;
+    font-size: 90px;
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+    vertical-align: baseline;
+  }
+
+  #bottom-text {
+    text-align: center;
+    font-size: 10px;
+    margin: 45px;
+    margin: 100px;
+    font-family: sans-serif;
+    vertical-align: baseline;
+  }
+
+  #get-started {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    border: 2px solid #3b3bff;
+    background-color: #3b3bff;
+    color: white;
+    border-radius: 40px;
+    width: 250px;
+    margin-left: 800px
+  }
